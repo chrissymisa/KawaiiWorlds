@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  pointer-events: auto;
+}
+
+h1 {
+  text-transform:uppercase;
+  font-family: helvetica;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+audio {
+  width: 15%;
+  position: absolute;
+  top: auto;
+  left: auto;
+  z-index: 1;
+}
+
+.hk-body {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  border: 0px solid black;
+  display: block;
+  min-height: 100vh;
+  cursor: url("../images/hk-cursor.png"), auto;
+}
+
+.hk-title-container {
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 25px;
+
+}
+
+.hk-image-container {
+  width: 100%;
+  margin-top: 300px;
+}
+
+.hk-background {
+  width: 100%;
+  position: fixed;
+}
+
+.hk-title {
+  width: 60%;
+  position: absolute;
+  top: -180;
+  left:300;
+}
+
+.hk-homebutton {
+  width: 40%;
+  position: absolute;
+  top: -140px;
+  left: -240px;
+}
+
+@keyframes bounce {
+  0% {
+    top: 250px;
+  }
+  50% {
+    top: 265px;
+  }
+  100% {
+    top: 250px;
+  }
+}
+
+.hk-speech {
+  width: 30%;
+  position: absolute;
+  top: 250;
+  left:150;
+  animation: bounce 3s infinite;
+  }
+
+  .hk-image-5 {
+    width: 20%;
+    position: absolute;
+    top: 480;
+    left:40;
+  }
+
+  .hk-image-10 {
+    width: 20%;
+    position: absolute;
+    top: 500;
+    left:150;
+  }
+
+  .hk-image-4 {
+    width: 20%;
+    position: absolute;
+    top: 480;
+    left:280;
+  }
+
+  .hk-image-7 {
+    width: 20%;
+    position: absolute;
+    top: 500;
+    left:390;
+  }
+
+  .hk-image-1 {
+  width: 20%;
+  position: absolute;
+  top: 480;
+  left:500;
+}
+
+.hk-image-8 {
+  width: 20%;
+  position: absolute;
+  top: 500;
+  left:620;
+}
+
+.hk-image-2 {
+  width: 20%;
+  position: absolute;
+  top: 480;
+  left:740;
+}
+
+
+@keyframes hover {
+  0% {
+    top: 500px;
+  }
+  50% {
+    top: 510px;
+  }
+  100% {
+    top: 500px;
+  }
+}
+
+.hk-image-9:hover {
+  width: 20%;
+  position: absolute;
+  animation: hover 1s infinite;
+}
+
+
+.hk-image-9 {
+  width: 20%;
+  position: absolute;
+  top: 500;
+  left:850;
+}
+
+.hk-image-3 {
+  width: 20%;
+  position: absolute;
+  top: 480;
+  left:960;
+}
+
+.hk-image-6 {
+  width: 20%;
+  position: absolute;
+  top: 480;
+  left:1090;
+}
+
+@keyframes float {
+  0% {
+    right: -30%;
+  }
+
+  50% {
+    right: 100%;
+  }
+
+  100% {
+    right: -30%;
+  }
+}
+
+.hk-cloud {
+  width: 40%;
+  position: absolute;
+  top: 30px;
+  right: -30%;
+  animation: float 40s ease infinite;
+}
