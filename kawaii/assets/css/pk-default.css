@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  pointer-events: auto;
+}
+
+h1 {
+  text-transform:uppercase;
+  font-family: helvetica;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+audio {
+  width: 15%;
+  position: absolute;
+  top: auto;
+  left: auto;
+  z-index: 1;
+}
+
+.pk-body {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  border: 0px solid black;
+  display: block;
+  min-height: 100vh;
+  cursor: url("../images/pk-cursor.png"), auto;
+}
+
+.pk-background {
+  width: 100%;
+  position: fixed;
+}
+
+.pk-title {
+  width: 60%;
+  position: absolute;
+  top: -140;
+  left:300;
+}
+
+.pk-homebutton {
+  width: 40%;
+  position: absolute;
+  top: -140px;
+  left: -240px;
+}
+
+
+@keyframes bounce {
+  0% {
+    top: 300px;
+  }
+  50% {
+    top: 315px;
+  }
+  100% {
+    top: 300px;
+  }
+}
+
+.pk-speech {
+  width: 25%;
+  position: absolute;
+  top: 300;
+  left:900;
+  animation: bounce 3s infinite;
+  }
+
+
+.pk-image-1 {
+    width: 20%;
+    position: absolute;
+    top: 480;
+    left:30;
+  }
+
+.pk-image-2 {
+    width: 20%;
+    position: absolute;
+    top: 500;
+    left:160;
+  }
+
+  .pk-image-3 {
+    width: 20%;
+    position:  absolute;
+    top: 480;
+    left:1170;
+  }
+
+.pk-image-4 {
+    width: 20%;
+    position: absolute;
+    top: 500;
+    left:410;
+  }
+
+.pk-image-5 {
+  width: 20%;
+  position: absolute;
+  top: 480;
+  left:540;
+}
+
+.pk-image-6 {
+  width: 20%;
+  position: absolute;
+  top:500;
+  left:670;
+}
+
+.pk-image-7 {
+  width: 20%;
+  position: absolute;
+  top: 490;
+  left:790;
+}
+
+.pk-image-8 {
+  width: 20%;
+  position: absolute;
+  top: 500;
+  left:920;
+}
+
+.pk-image-9 {
+  width: 20%;
+  position:  absolute;
+  top: 480;
+  left:1050;
+}
+
+@keyframes hover {
+  0% {
+    top: 480px;
+  }
+  50% {
+    top: 490px;
+  }
+  100% {
+    top: 480px;
+  }
+}
+
+.pk-image-10:hover {
+  width: 20%;
+  position: absolute;
+  animation: hover 1s infinite;
+}
+
+.pk-image-10 {
+  width: 20%;
+  position: absolute;
+  top: 480;
+  left:280;
+}
+
+
+@keyframes float {
+  0% {
+    right: -30%;
+  }
+
+  50% {
+    right: 100%;
+  }
+
+  100% {
+    right: -30%;
+  }
+}
+
+.pk-cloud {
+  width: 40%;
+  position: absolute;
+  top: 30px;
+  right: -30%;
+  animation: float 40s ease infinite;
+}

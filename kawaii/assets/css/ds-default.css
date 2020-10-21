@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+a {
+  pointer-events: auto;
+  display: block;
+}
+
+h1 {
+  text-transform:uppercase;
+  font-family: helvetica;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+audio {
+  width: 15%;
+  position: absolute;
+  top: auto;
+  left: auto;
+  z-index: 1;
+}
+
+.ds-body {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  border: 0px solid black;
+  min-height: 100vh;
+  cursor: url("../images/ds-cursor.png"), auto;
+}
+
+.ds-title-container {
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 25px;
+
+}
+
+.ds-image-container {
+  width: 100%;
+  margin-top: 300px;
+}
+
+.ds-background {
+  width: 100%;
+  position: fixed;
+}
+
+.ds-homebutton {
+  width: 40%;
+  position: absolute;
+  top: -140px;
+  left: -240px;
+}
+
+.ds-title {
+  width: 60%;
+  position: absolute;
+  top: -150;
+  left:300;
+}
+
+@keyframes bounce {
+  0% {
+    top: 270px;
+  }
+  50% {
+    top: 285px;
+  }
+  100% {
+    top: 270px;
+  }
+}
+
+.ds-speech {
+  width: 30%;
+  position: absolute;
+  top: 270;
+  left:900;
+  animation: bounce 3s infinite;
+  }
+
+.ds-image-5 {
+    width: 20%;
+    position: absolute;
+    top: 480;
+    left:60;
+  }
+
+
+.ds-image-6 {
+  width: 20%;
+  position: absolute;
+  top: 500;
+  left:170;
+}
+
+.ds-image-4 {
+    width: 20%;
+    position: absolute;
+    top: 480;
+    left:290;
+  }
+
+.ds-image-7 {
+    width: 20%;
+    position: absolute;
+    top: 500;
+    left:420;
+  }
+
+.ds-image-1 {
+  width: 20%;
+  position: absolute;
+  top: 500;
+  left:870;
+}
+
+.ds-image-8 {
+width: 20%;
+position: absolute;
+top: 490;
+left:660;
+}
+
+.ds-image-2 {
+  width: 20%;
+  position: absolute;
+  top: 500;
+  left:760;
+}
+
+@keyframes hover {
+  0% {
+    top: 500px;
+  }
+  50% {
+    top: 510px;
+  }
+  100% {
+    top: 500px;
+  }
+}
+
+.ds-image-9:hover {
+  width: 20%;
+  position: absolute;
+  animation: hover 1s infinite;
+}
+
+.ds-image-9 {
+  width: 20%;
+  position: absolute;
+  top: 500;
+  left:550;
+}
+
+.ds-image-3 {
+  width: 20%;
+  position: absolute;
+  top: 500;
+  left:980;
+}
+
+.ds-image-10 {
+  width: 20%;
+  position: absolute;
+  top:480;
+  left:1100;
+}
+
+@keyframes float {
+  0% {
+    right: -30%;
+  }
+
+  50% {
+    right: 100%;
+  }
+
+  100% {
+    right: -30%;
+  }
+}
+
+.ds-cloud {
+  width: 40%;
+  position: absolute;
+  top: 30px;
+  right: -30%;
+  animation: float 40s ease infinite;
+}
