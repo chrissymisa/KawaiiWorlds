@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  pointer-events: none;
 }
 
 a {
@@ -21,8 +20,9 @@ img {
 audio {
   width: 15%;
   position: absolute;
+  opacity: 50%;
   top: auto;
-  left: auto;
+  left: 1240;
   z-index: 1;
 }
 
@@ -31,8 +31,6 @@ audio {
   padding: 0px;
   margin: 0px;
   border: 0px solid black;
-  min-height: 100vh;
-  cursor: url("../images/ds-cursor.png"), auto;
 }
 
 .ds-title-container {
@@ -55,18 +53,19 @@ audio {
   position: fixed;
 }
 
-.ds-homebutton {
-  width: 40%;
-  position: absolute;
-  top: -140px;
-  left: -240px;
-}
 
 .ds-title {
   width: 60%;
   position: absolute;
   top: -150;
   left:300;
+}
+
+.ds-homebutton {
+  width: 40%;
+  position: absolute;
+  top: -160px;
+  left: -240px;
 }
 
 @keyframes bounce {
